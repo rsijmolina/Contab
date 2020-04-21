@@ -1,0 +1,23 @@
+DELETE FROM PLPlanillas
+WHERE     (Año = @Original_Año) AND (Mes = @Original_Mes) AND (NoPlanilla = @Original_NoPlanilla) AND (@IsNull_CodigoSede = 1 AND 
+                      CodigoSede IS NULL OR
+                      CodigoSede = @Original_CodigoSede) AND (@IsNull_CodigoDepartamento = 1 AND CodigoDepartamento IS NULL OR
+                      CodigoDepartamento = @Original_CodigoDepartamento) AND (@IsNull_CodigoSeccion = 1 AND CodigoSeccion IS NULL OR
+                      CodigoSeccion = @Original_CodigoSeccion) AND (CodigoEmpleado = @Original_CodigoEmpleado) AND (DiasTrabajados = @Original_DiasTrabajados) 
+                      AND (SueldoNormal = @Original_SueldoNormal) AND (DiasFeriados = @Original_DiasFeriados) AND 
+                      (SueldoAdicionalFeriados = @Original_SueldoAdicionalFeriados) AND (HorasTarde = @Original_HorasTarde) AND 
+                      (ValorHorastarde = @Original_ValorHorastarde) AND (HorasExtras25 = @Original_HorasExtras25) AND 
+                      (ValorHorasExtras25 = @Original_ValorHorasExtras25) AND (HorasExtras50 = @Original_HorasExtras50) AND 
+                      (ValorHorasExtras50 = @Original_ValorHorasExtras50) AND (HorasExtras75 = @Original_HorasExtras75) AND 
+                      (ValorHorasExtras75 = @Original_ValorHorasExtras75) AND (HorasExtrasDobles = @Original_HorasExtrasDobles) AND 
+                      (ValorHorasExtrasDobles = @Original_ValorHorasExtrasDobles) AND (Comisiones = @Original_Comisiones) AND 
+                      (Bonificaciones = @Original_Bonificaciones) AND (Transporte = @Original_Transporte) AND (Combustible = @Original_Combustible) AND 
+                      (DepreciacionVehiculo = @Original_DepreciacionVehiculo) AND (Vacaciones = @Original_Vacaciones) AND 
+                      (IngresosAdicionales1 = @Original_IngresosAdicionales1) AND (IngresosAdicionales2 = @Original_IngresosAdicionales2) AND 
+                      (IngresosAdicionales3 = @Original_IngresosAdicionales3) AND (IngresosAdicionales4 = @Original_IngresosAdicionales4) AND 
+                      (IngresosAdicionales5 = @Original_IngresosAdicionales5) AND (SeguroSocial = @Original_SeguroSocial) AND (RAP = @Original_RAP) AND 
+                      (ImpuestoVecinal = @Original_ImpuestoVecinal) AND (ImpuestoSobreRenta = @Original_ImpuestoSobreRenta) AND 
+                      (INJUPEMP = @Original_INJUPEMP) AND (INPREMA = @Original_INPREMA) AND (DeduccionFija1 = @Original_DeduccionFija1) AND 
+                      (DeduccionFija2 = @Original_DeduccionFija2) AND (DeduccionFija3 = @Original_DeduccionFija3) AND (DeduccionFija4 = @Original_DeduccionFija4) 
+                      AND (DeduccionFija5 = @Original_DeduccionFija5) AND (OtrasDeducciones = @Original_OtrasDeducciones) AND (Banco = @Original_Banco) AND 
+                      (Cerrado = @Original_Cerrado) AND (DatosRevisados = @Original_DatosRevisados)

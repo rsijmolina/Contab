@@ -1,0 +1,8 @@
+INSERT INTO PLPlanillas
+                      (Año, Mes, NoPlanilla, CodigoSede, CodigoDepartamento, CodigoSeccion, CodigoEmpleado, DiasTrabajados, SueldoNormal, DiasFeriados, 
+                      SueldoAdicionalFeriados, HorasTarde, ValorHorastarde, HorasExtras25, ValorHorasExtras25, HorasExtras50, ValorHorasExtras50, HorasExtras75, 
+                      ValorHorasExtras75, HorasExtrasDobles, ValorHorasExtrasDobles, Comisiones, Bonificaciones, Transporte, Combustible, DepreciacionVehiculo, 
+                      Vacaciones, IngresosAdicionales1, IngresosAdicionales2, IngresosAdicionales3, IngresosAdicionales4, IngresosAdicionales5, SeguroSocial, RAP, 
+                      ImpuestoVecinal, ImpuestoSobreRenta, INJUPEMP, INPREMA, DeduccionFija1, DeduccionFija2, DeduccionFija3, DeduccionFija4, DeduccionFija5, 
+                      OtrasDeducciones, Banco, Cerrado, DatosRevisados)
+VALUES     (@Año,@Mes,@NoPlanilla,@CodigoSede,@CodigoDepartamento,@CodigoSeccion,@CodigoEmpleado,@DiasTrabajados,@SueldoNormal,@DiasFeriados,@SueldoAdicionalFeriados,@HorasTarde,@ValorHorastarde,@HorasExtras25,@ValorHorasExtras25,@HorasExtras50,@ValorHorasExtras50,@HorasExtras75,@ValorHorasExtras75,@HorasExtrasDobles,@ValorHorasExtrasDobles,@Comisiones,@Bonificaciones,@Transporte,@Combustible,@DepreciacionVehiculo,@Vacaciones,@IngresosAdicionales1,@IngresosAdicionales2,@IngresosAdicionales3,@IngresosAdicionales4,@IngresosAdicionales5,@SeguroSocial,@RAP,@ImpuestoVecinal,@ImpuestoSobreRenta,@INJUPEMP,@INPREMA,@DeduccionFija1,@DeduccionFija2,@DeduccionFija3,@DeduccionFija4,@DeduccionFija5,@OtrasDeducciones,@Banco,@Cerrado,@DatosRevisados)

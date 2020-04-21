@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>C1.Win.C1Input</name>
+    </assembly>
+    <members>
+        <member name="M:C1.Win.AboutForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:C1.Win.LicensingForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:C1.Util.Localization.C1DescriptionAttribute">
+            <summary>
+            ------------------------------------------------------------------------
+            C1DescriptionAttribute replaces the DescriptionAttribute
+            and uses the C1Localizer class to return the localized Attribute string
+            </summary>
+        </member>
+        <member name="T:C1.Util.Localization.C1CategoryAttribute">
+            <summary>
+            ------------------------------------------------------------------------
+            C1CategoryAttribute replaces the CategoryAttribute
+            and uses the C1Localizer class to return the localized Attribute string
+            </summary>
+        </member>
+        <member name="T:C1.Util.Localization.C1Localizer">
+            <summary>
+            ------------------------------------------------------------------------
+            C1Localizer contains static methods to load and look up resources
+            </summary>
+        </member>
+        <member name="T:C1.Util.Localization.StringTables">
+            <summary>
+            StringTables
+            this class contains a single static method InitTables that populates the
+            tables used by the Localizer class.
+            </summary>
+        </member>
+        <member name="T:C1.Win.C1Input.Win32">
+            CAUTION: Use this attribute with extreme care. Incorrect use can create security weaknesses.
+            This attribute can be applied to methods that want to call into native code without incurring 
+            the performance loss of a run-time security check in doing so. The assertion and subsequent 
+            demands performed when calling unmanaged code is omitted at run time, resulting in substantial 
+            performance savings. Only code that has been granted the UnmanagedCode permission can do this 
+            (see SecurityPermissionFlag). Using this attribute in a class or module applies to 
+            all contained methods.
+        </member>
+        <member name="M:C1.Win.C1Input.C1DbNavigator.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:C1.Win.C1Input.CustomPlaceholder.IsEmptyPlaceholder">
+            <summary>
+            Tests whether the placeholder is empty.
+            </summary>
+        </member>
+    </members>
+</doc>
